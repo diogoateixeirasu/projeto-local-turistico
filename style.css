@@ -1,9 +1,63 @@
 :root{
     font-family: "Open Sans", sans-serif;
+    --accent_blue: #0C51A7;
+    --accent_orange: #E95E10;
+    --accent_pink: #E5245E;
+    --accent_purple: #591B98;
+    --text_primary: #1B1B1B;
+    --text_secondary: #333333;
+    --text_tertiary: #696969;
+    --text_headline: #E1624F;
 }
 
 main {
-    margin: auto 80px;
+    margin: auto 40px;
+}
+
+#headline p {
+    color: var(--text_headline);
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 88px auto 8px;
+    
+
+}
+#headline h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px auto 40px;
+}
+#description {
+    margin-bottom: 40px;
+}
+
+#description img{ 
+    weight: 1120px;
+    height: 660px;
+    border-radius: 28px;
+}
+#description p {
+    margin: 16px auto 44px;
+    text-align: center;
+    font-style: italic;
+}
+
+#start_topics h1 {
+    font-size: 16px;
+    color: var(--text_headline);
+    text-transform: uppercase;
+    margin: 64px auto 2px;
+}  
+
+#start_topics h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#start_topics p {
+    margin: 8px auto 64px;
 }
 
 ol {
