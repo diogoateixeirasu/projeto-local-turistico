@@ -1,0 +1,15 @@
+:root{
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    margin: auto 80px;
+}
+
+ol {
+    padding: 0;
+}
+ol li {
+    margin-left: 30px;
+    
+}
