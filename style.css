@@ -9,9 +9,17 @@
     --text_tertiary: #696969;
     --text_headline: #E1624F;
 }
-
+body {
+    background-color: #333333;
+}
 main {
-    margin: auto 40px;
+    background-color: white;
+    margin: 40px auto 40px;
+    max-width: 1280px;
+    height: 3270px;
+    box-sizing: border-box;
+    padding: 80px 88px;
+    border-radius: 28px;
 }
 
 #headline p {
@@ -19,7 +27,7 @@ main {
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
-    margin: 88px auto 8px;
+    margin: 0;
     
 
 }
@@ -33,7 +41,7 @@ main {
 }
 
 #description img{ 
-    weight: 1120px;
+    width: 1120px;
     height: 660px;
     border-radius: 28px;
 }
@@ -59,7 +67,75 @@ main {
 #start_topics p {
     margin: 8px auto 64px;
 }
+#topics img {
+      width: 1120px;
+      height: 350px;
+      border-radius: 28px;
+}
 
+#topics li {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#topics li h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px auto 4px;
+}
+#topics ol p#templo {
+    margin: 0;
+}
+#topics ol p#hist {
+    color: var(--accent_blue);
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+#topics ol p#hist {
+    color: var(--accent_blue);
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+#topics ol p#beomeo {
+    margin: 0;
+}
+#topics p#parque{
+    margin: 0;
+}
+#topics p#list {
+    margin: 0;
+    color: var(--accent_purple);
+    font-weight: 700;
+
+}
+#topics p#fam {
+    margin: 0;
+    color: var(--accent_pink);
+    font-weight: 700;
+
+}
+#topics p#orc {
+    margin: 0;
+    color: var(--accent_orange);
+    font-weight: 700;
+
+}
+
+#descriptionend {
+    margin: 16px auto 44px;
+    text-align: center;
+    font-style: italic;
+    margin: 80px auto 65px;
+}
+footer {
+    text-align: center;
+    
+}
+footer img{
+    vertical-align: middle;
+}
 ol {
     padding: 0;
 }
